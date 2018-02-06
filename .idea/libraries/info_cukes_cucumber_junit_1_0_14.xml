@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="info.cukes:cucumber-junit:1.0.14" type="repository">
+    <properties maven-id="info.cukes:cucumber-junit:1.0.14" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-junit/1.0.14/cucumber-junit-1.0.14.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.0.14/cucumber-core-1.0.14.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
