@@ -1,9 +1,9 @@
 package Helper;
 
 
-import Methods.MethodList;
 
-public class Collections implements MethodList {
+
+public class Collections {
 
     int[] example_1 = {1, 4, 1, 4, 2, 1, 3, 5, 6, 2, 3, 7};
 

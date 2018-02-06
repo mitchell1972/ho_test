@@ -1,7 +1,5 @@
 package Helper;
 
-import Methods.MethodList;
-
 
 public class Element extends Collections {
 static Collections c = new Collections();
