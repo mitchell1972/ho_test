@@ -4,16 +4,18 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
+import sun.plugin2.message.Message;
 
 import java.util.List;
 
+import static junit.framework.TestCase.assertTrue;
 import static org.junit.Assert.assertEquals;
 
 public class MainPage {
 
-    static WebElement element = null;
-    static WebDriver dr = null;
-    static String chosenLanguage;
+    private static WebElement element = null;
+    private static WebDriver dr = null;
+    private static String chosenLanguage;
 
     public static WebElement searchButton(WebDriver e,String className) {
         element = e.findElement(By.className(className));
@@ -38,6 +40,6 @@ public class MainPage {
     }
 
     public static void firstHeading(WebDriver dr,String id, String heading){
-        assertEquals(dr.findElement(By.id(id)).getText(),heading);
+       assertTrue(dr.findElement(By.id(id)).getText().equalsIgnoreCase(heading));
     }
 }
