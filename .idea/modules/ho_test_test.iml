@@ -41,7 +41,7 @@
     <orderEntry type="library" name="Gradle: com.google.errorprone:error_prone_annotations:2.0.18" level="project" />
     <orderEntry type="library" name="Gradle: com.google.j2objc:j2objc-annotations:1.1" level="project" />
     <orderEntry type="library" name="Gradle: org.codehaus.mojo:animal-sniffer-annotations:1.14" level="project" />
-    <orderEntry type="library" name="info.cukes:cucumber-junit:1.2.6-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="TEST" name="info.cukes:cucumber-junit:1.2.5" level="project" />
   </component>
   <component name="TestModuleProperties" production-module="ho_test_main" />
 </module>
